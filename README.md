@@ -210,7 +210,7 @@ Compared with Pigeon, PigeonPro adds data synchronization on all platforms [Dart
 
 ```dart
 @Configure()
-class Api2Host {
+class Info {
    String test = '123456';
    int test1 = 100;
    double test2 = 0.123;
@@ -223,7 +223,7 @@ class Api2Host {
 Dart Code:
 ```dart
 @Configure()
-class Api2Host {
+class Info {
    String test = '123456';
    int test1 = 100;
    double test2 = 0.123;
