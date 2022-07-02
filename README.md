@@ -1,3 +1,5 @@
+Language: English | [中文简体](README-CN.md)
+
 # PigeonPro
 
 This is a fork of [Pigeon](https://github.com/flutter/packages/tree/main/packages/pigeon).
