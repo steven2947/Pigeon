@@ -491,8 +491,8 @@ void _writeConfigureApiSource(
     Indent indent, ObjcOptions options, Api api, Root root) {
   assert(api.location == ApiLocation.configure);
   indent.addln('');
-  final String apiName = _className(options.prefix, api.name);
-  indent.writeln('@protocol $apiName');
+  // final String apiName = _className(options.prefix, api.name);
+  // indent.writeln('@protocol $apiName');
   api.arguments?.forEach((field) {
     final _ObjcPtr type = _objcTypeForDartType(null, field.type);
     indent.writeln('${type.baseName} *const ${field.name} = @${field.value};');
