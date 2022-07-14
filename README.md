@@ -245,7 +245,6 @@ Java Code:
 ```
 OC Code:
 ```objectivec
-@protocol Info
 NSString *const test = @'123456';
 NSNumber *const test1 = @100;
 NSNumber *const test2 = @0.123;
